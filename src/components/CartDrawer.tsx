@@ -458,7 +458,7 @@ export function CartDrawer({
                           <p className="font-semibold text-[#1B3B2B]">
                             Apply $20 New Member Voucher (WELCOME20)
                           </p>
-                          <p className="text-[#1B3B2B]/80">Valid till 31st Dec</p>
+                          <p className="text-[#1B3B2B]/80">While Stocks Last</p>
                         </div>
                       </div>
                       <input
@@ -507,7 +507,7 @@ export function CartDrawer({
               ) : (
                 <div className="bg-white border border-[#E5E1D8] rounded-2xl p-3.5 flex items-center justify-between gap-3">
                   <div className="text-xs">
-                    <p className="font-semibold text-zinc-900">New members get $20 voucher</p>
+                    <p className="font-semibold text-zinc-900">Founding Members get $20 voucher</p>
                     <p className="text-zinc-500">Plus earn 1 pt per $10 (10 pts = $10 off)</p>
                   </div>
                   <button

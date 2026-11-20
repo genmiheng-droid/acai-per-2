@@ -145,7 +145,7 @@ export function MemberAuthModal({
                   <div className="text-xs leading-relaxed">
                     <p className="font-semibold text-sm">Membership confirmed</p>
                     <p className="mt-0.5">
-                      Your $20 welcome voucher (WELCOME20) is active and ready to apply in your cart. Offer valid till 31st Dec.
+                      Your $20 welcome voucher (WELCOME20) is active and ready to apply in your cart. While Stocks Last.
                     </p>
                   </div>
                 </div>
@@ -203,7 +203,7 @@ export function MemberAuthModal({
                       <Ticket className="w-5 h-5" />
                     </div>
                     <div>
-                      <p className="text-xs text-zinc-500">New Member Reward · Valid till 31st Dec</p>
+                      <p className="text-xs text-zinc-500">Founding Member Reward · While Stocks Last</p>
                       <p className="text-base font-semibold text-zinc-900 tabular-nums">
                         $20.00 Welcome Voucher
                       </p>
@@ -287,7 +287,7 @@ export function MemberAuthModal({
                   <div className="p-3.5 rounded-xl bg-[#E8EFEA] text-xs text-[#1B3B2B] flex items-start gap-2.5">
                     <Award className="w-4 h-4 shrink-0 mt-0.5" />
                     <p className="leading-relaxed">
-                      New members receive a <span className="font-semibold">$20.00 voucher</span> (valid till 31st Dec) plus a Membership Card that earns <span className="font-semibold">1 point per $10 spent</span> (10 points = $10 off).
+                      Founding Members receive a <span className="font-semibold">$20.00 voucher</span> (While Stocks Last) plus a Membership Card that earns <span className="font-semibold">1 point per $10 spent</span> (10 points = $10 off).
                     </p>
                   </div>
 

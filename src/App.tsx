@@ -256,23 +256,23 @@ export default function App() {
         isCartOpen ? 'md:pr-[380px] lg:pr-[420px]' : ''
       }`}
     >
-      {/* Locked Sticky Header Stack: Fixed New Members Offer Banner + Top Bar */}
+      {/* Locked Sticky Header Stack: Fixed Founding Members Offer Banner + Top Bar */}
       <div className="sticky top-0 z-30">
         {showPromoBanner && (
           <div className="bg-[#FAF9F6]/95 backdrop-blur-md pt-2 px-3 sm:px-6 lg:px-8 pb-2 border-b border-[#E5E1D8]/60">
-            <div className="max-w-7xl mx-auto rounded-2xl bg-[#14532D] border-2 border-[#22C55E] px-4 py-2.5 sm:px-5 sm:py-3.5 text-white shadow-sm relative flex items-center justify-between gap-3 pr-11">
+            <div className="max-w-7xl mx-auto rounded-2xl bg-[#5D2E6D] border-2 border-[#C084FC] px-4 py-2.5 sm:px-5 sm:py-3.5 text-white shadow-sm relative flex items-center justify-between gap-3 pr-11">
               <div className="min-w-0">
                 <p className="text-[11px] sm:text-xs font-semibold tracking-wide text-white/90 truncate">
-                  New Member Offer · Valid till 31st Dec
+                  Founding Member Offer · While Stocks Last
                 </p>
                 <p className="font-display text-sm sm:text-lg font-semibold text-white leading-snug truncate">
-                  New members get $20 voucher on your first BellyBellyGood order
+                  Founding Members get $20 voucher on your first BellyBellyGood order
                 </p>
               </div>
               <button
                 type="button"
                 onClick={() => openMemberModal(currentMember ? 'account' : 'signup')}
-                className="min-h-[40px] px-3.5 sm:px-5 py-2 rounded-xl border-2 border-[#4ADE80] bg-[#166534] hover:bg-[#15803D] text-white text-xs sm:text-sm font-semibold whitespace-nowrap shrink-0 transition-colors"
+                className="min-h-[40px] px-3.5 sm:px-5 py-2 rounded-xl border-2 border-[#D8B4FE] bg-[#441E52] hover:bg-[#361642] text-white text-xs sm:text-sm font-semibold whitespace-nowrap shrink-0 transition-colors"
               >
                 {currentMember ? 'My Card' : 'Sign Up & Claim $20'}
               </button>
@@ -408,17 +408,17 @@ export default function App() {
             </div>
           </div>
 
-          {/* Strategic New Member Offer Spotlight — Prominent Green Border with White Words */}
-          <div className="mt-5 rounded-2xl bg-[#14532D] border-2 border-[#22C55E] p-5 sm:p-6 text-white shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4">
+          {/* Strategic Founding Member Offer Spotlight — Prominent Açaí Banner with White Words */}
+          <div className="mt-5 rounded-2xl bg-[#5D2E6D] border-2 border-[#C084FC] p-5 sm:p-6 text-white shadow-sm flex flex-col md:flex-row md:items-center justify-between gap-4">
             <div className="space-y-1">
               <p className="text-xs font-semibold tracking-wide text-white/90">
-                New Member Offer · Valid till 31st Dec
+                Founding Member Offer · While Stocks Last
               </p>
               <h2 className="font-display text-xl sm:text-2xl font-semibold text-white leading-snug">
                 Join BellyBellyGood today and get a $20 welcome voucher
               </h2>
               <p className="text-sm text-white/90">
-                Instant $20 off your order with code WELCOME20 · Offer valid till 31st Dec
+                Instant $20 off your order with code WELCOME20 · While Stocks Last
               </p>
             </div>
 
@@ -426,7 +426,7 @@ export default function App() {
               <button
                 type="button"
                 onClick={() => openMemberModal(currentMember ? 'account' : 'signup')}
-                className="min-h-[48px] px-6 py-3 rounded-xl border-2 border-[#4ADE80] bg-[#166534] hover:bg-[#15803D] text-white text-sm font-semibold transition-colors whitespace-nowrap shrink-0"
+                className="min-h-[48px] px-6 py-3 rounded-xl border-2 border-[#D8B4FE] bg-[#441E52] hover:bg-[#361642] text-white text-sm font-semibold transition-colors whitespace-nowrap shrink-0"
               >
                 {currentMember ? 'View My $20 Voucher' : 'Sign Up & Claim $20'}
               </button>
